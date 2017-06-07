@@ -1,0 +1,29 @@
+{
+  "name": "webpack-if",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest-webpack",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "webpack",
+    "configuration"
+  ],
+  "author": "Michael \"Z\" Goddard <mzgoddard@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@mzgoddard/jest-webpack": "^0.0.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-jest": "^20.0.3",
+    "hard-source-webpack-plugin": "^0.3.12",
+    "jest": "^20.0.4",
+    "node-object-hash": "^1.2.0",
+    "source-map-support": "^0.4.15",
+    "webpack": "^2.6.1"
+  }
+}
