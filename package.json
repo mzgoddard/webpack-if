@@ -1,7 +1,7 @@
 {
   "name": "webpack-if",
   "version": "0.0.1",
-  "description": "",
+  "description": "Helpers to create webpack configurations",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -15,7 +15,7 @@
   "author": "Michael \"Z\" Goddard <mzgoddard@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@mzgoddard/jest-webpack": "^0.0.2",
+    "@mzgoddard/jest-webpack": "^0.0.3",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.5.1",
