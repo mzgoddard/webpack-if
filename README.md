@@ -1,5 +1,7 @@
 # webpack-if
 
+[![Build Status](https://travis-ci.org/mzgoddard/webpack-if.svg?branch=master)](https://travis-ci.org/mzgoddard/webpack-if)
+
 `webpack-if` provides some helper methods to create webpack configurations with tests inside of an object literal so that your configuration can mutate due to the state of the execution environment without needing to split up construction that can leading to config builders or files with hard to follow files.
 
 ## Install
