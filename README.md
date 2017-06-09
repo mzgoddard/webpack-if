@@ -121,7 +121,7 @@ module.exports = webpackIf({
     ifProd(() => new CommonsChunkPlugin('vendor')),
     ifProd(() => new ExtractTextPlugin('[contenthash].css')),
     ifProd(() => new DefinePlugin({
-      'process.env.NODE_ENV: '"production"',
+      'process.env.NODE_ENV': '"production"',
     })),
     ifDev(() => new HardSourceWebpackPlugin()),
   ],
