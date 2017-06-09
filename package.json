@@ -1,6 +1,6 @@
 {
   "name": "webpack-if",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Helpers to create webpack configurations",
   "main": "index.js",
   "scripts": {
