@@ -22,7 +22,7 @@ const is = _is => op((a, b) => a === b, _is);
 const isArray = value => Array.isArray(value);
 
 const isObject = value => (
-  value ? typeof value === 'object' : false
+  value ? value.constructor === Object : false
 );
 
 const isEmpty = value => {

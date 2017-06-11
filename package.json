@@ -25,6 +25,5 @@
     "node-object-hash": "^1.2.0",
     "source-map-support": "^0.4.15",
     "webpack": "^2.6.1 || ^1.13.1"
-  },
-  "dependencies": {}
+  }
 }

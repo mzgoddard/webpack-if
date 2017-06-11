@@ -40,7 +40,7 @@ module.exports = webpackIf({
     callback(null);
   },
   module: {
-    [ifWebpack1('loader', 'rules')]: [
+    [ifWebpack1('loaders', 'rules')]: [
       {
         test: /\.js$/,
         exclude: join(__dirname, 'node_modules'),
