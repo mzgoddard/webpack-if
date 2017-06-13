@@ -49,10 +49,6 @@ module.exports = webpackIf({
     ],
   },
   plugins: [
-    ifProd(null, () => new HardSourceWebpackPlugin({
-      cacheDirectory: join(__dirname, 'node_modules/.cache/hard-source/[config-hash]'),
-      recordsPath: join(__dirname, 'node_modules/.cache/hard-source/[config-hash]/records.json'),
-      configHash: require('node-object-hash')().hash,
-    })),
+    ifProd(null, () => new HardSourceWebpackPlugin()),
   ],
 });

@@ -2,6 +2,10 @@
   "name": "webpack-if",
   "version": "0.1.1",
   "description": "Helpers to create webpack configurations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzgoddard/webpack-if.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -20,7 +24,7 @@
     "babel-loader": "^7.0.0 || ^6.0.0",
     "babel-preset-env": "^1.5.1",
     "babel-preset-jest": "^20.0.3",
-    "hard-source-webpack-plugin": "^0.3.12",
+    "hard-source-webpack-plugin": "^0.4.4",
     "jest": "^20.0.4",
     "node-object-hash": "^1.2.0",
     "source-map-support": "^0.4.15",
