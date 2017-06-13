@@ -2,6 +2,10 @@
   "name": "webpack-if",
   "version": "0.1.1",
   "description": "Helpers to create webpack configurations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzgoddard/webpack-if.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack",
