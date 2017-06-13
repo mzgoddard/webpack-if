@@ -27,7 +27,7 @@ yarn install -D webpack-if
 ```js
 const webpackIf = require('webpack-if');
 
-const ifProd = webpack.ifElse(process.env.NODE_ENV === 'production');
+const ifProd = webpackIf.ifElse(process.env.NODE_ENV === 'production');
 
 module.exports = {
   entry: ifProd('./src/main.prod.js', './src/main.js'),
@@ -71,8 +71,8 @@ if (!process.env.NODE_ENV) {
 
 const nodeEnv = process.env.NODE_ENV;
 
-const ifDev = webpack.ifElse(nodeEnv === 'development');
-const ifProd = webpack.ifElse(nodeEnv === 'production');
+const ifDev = webpackIf.ifElse(nodeEnv === 'development');
+const ifProd = webpackIf.ifElse(nodeEnv === 'production');
 
 module.exports = webpackIf({
   context: __dirname,
